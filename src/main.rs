@@ -3,6 +3,16 @@ fn main() {
     // let input_bytes = vec![0x53, 0x75, 0x6E, 0x53, 0x75];
     let mut sb = String::new();
 
+    println!(
+        r#"
+ _                     __   _  _   
+| |__   __ _ ___  ___ / /_ | || |  
+| '_ \ / _` / __|/ _ \ '_ \| || |_ 
+| |_) | (_| \__ \  __/ (_) |__   _|
+|_.__/ \__,_|___/\___|\___/   |_|  
+    "#
+    );
+
     println!("Enter text:");
     let mut input = String::new();
     std::io::stdin().read_line(&mut input).unwrap();
