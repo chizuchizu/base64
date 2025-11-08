@@ -2,8 +2,11 @@
 
 Made by Rust.
 
-- [x]: Encoder
-- []: Decoder 
+Done:
+- Encoder
+
+TODO:
+- Decoder 
 
 
 Reference
